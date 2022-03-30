@@ -1,0 +1,80 @@
+#top_page{
+    background-color: lightskyblue;
+}
+.topnav{
+    text-align: right;
+    font-size: 1.5em;
+    padding-right: 75px;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: royalblue;
+    word-spacing: 2em;
+}
+#home_tag,#about_tag,#project_tag,#contact_tag{
+    text-decoration: none;
+    color: black;
+}
+.video{
+    display: block;
+    margin:auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border:none;
+    }
+#name_title{
+    margin: 0%;
+    font-size: 4em;
+    color: lightslategrey;
+    font-family: 'Dosis', sans-serif;
+    }
+
+#sub_bio{
+    margin-top: 0;
+    padding-bottom: 15px;
+    color: whitesmoke;
+}
+.content {
+    color:black;
+    text-align: center;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 2em;
+}
+#image {
+    display: block;
+    margin:auto;
+    border-radius: 10%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+#image:hover {
+    -webkit-filter: none;
+    filter: none;
+    transition-duration: 1s;
+}
+#bio_box{
+    display: block;
+    margin-left: auto;
+    margin-right: 25;
+    width: 375px;
+}
+#skill_box{
+    display: block;
+    margin-left: 25;
+    margin-right: auto;
+    width: 375px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.exp {
+    text-align: center;
+    width: 6em;
+    margin: auto;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.bio {
+    text-align: center;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
