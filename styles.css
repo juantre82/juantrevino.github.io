@@ -11,6 +11,10 @@
     color: royalblue;
     word-spacing: 2em;
 }
+.social_tab{
+    text-align: center;
+    word-spacing: 2em;
+}
 #home_tag,#about_tag,#project_tag,#contact_tag{
     text-decoration: none;
     color: black;
@@ -63,6 +67,11 @@
     margin-left: 25;
     margin-right: auto;
     width: 375px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+ul{
+    list-style: none;
+    line-height: 5em;
 }
 #grid{
     display: grid;
@@ -76,5 +85,36 @@
 }
 .bio {
     text-align: center;
+    line-height: 2em;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+#contact_m{
+    text-align: center;
+}
+#back_color{
+    background-color: antiquewhite;
+}
+#grid_project{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: auto;
+    justify-items: center;
+    background-color: lightskyblue;
+    padding: auto;
+}
+#link_img,#git_img,#email_img{
+    width: 35px;
+    height: 35px;
+}
+#project_title{
+    font-family: 'Dosis', sans-serif;
+    padding-bottom: 10px;
+}
+.card-body{
+    height: auto;
+}
+.card-text{
+    font-display: flex;
+    text-align: left;
+    justify-content:space-between;
 }
