@@ -1,4 +1,6 @@
 #top_page{
+    margin-right: auto;
+    margin-left: auto;
     background-color: lightskyblue;
 }
 .topnav{
